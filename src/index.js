@@ -19,6 +19,7 @@ function updateClient(postData){
 
 
 let url = "http://localhost:8080/";
+url = url + "API/opml2json"  // URL extension for API
 let path = "../res/states.opml"  // Path to test file (res)
 
 // read XML from a file
