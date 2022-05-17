@@ -1,0 +1,23 @@
+{
+  "name": "pugs",
+  "version": "1.0.0",
+  "description": "Premature Utilities Geared for Servers. The PUGS back-end testing framework.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelvega/PUGS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelvega/PUGS/issues"
+  },
+  "homepage": "https://github.com/michaelvega/PUGS#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
