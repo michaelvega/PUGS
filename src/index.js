@@ -1,4 +1,3 @@
-
 const request = require("request");
 const fs = require("fs");
 
@@ -18,13 +17,15 @@ function updateClient(postData){
 }
 
 
-let url = "http://localhost:8080/";
-url = url + "API/opml2json"  // URL extension for API
+let url = "https://edge-api-orp3bl6lta-ue.a.run.app/";
+url = url + "API/imageName"  // URL extension for API
 let path = "../res/states.opml"  // Path to test file (res)
 
 // read XML from a file
-const req_data = fs.readFileSync(path, "utf8");
+let req_data = fs.readFileSync(path, "utf8");
 req_data.trim();
+
+req_data = "IMG_6242.jpg"
 
 console.log(req_data);
 updateClient(req_data);
